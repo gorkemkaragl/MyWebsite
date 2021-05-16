@@ -32,3 +32,81 @@ body {
   height: 50px;
   background-color: #132c33;
 }
+.button{
+  background-color: #d8e3e7;
+}
+.map-responsive{
+  overflow:hidden;
+  padding-bottom:50%;
+  position:relative;
+  height:0;
+}
+.map-responsive iframe{
+  left:0;
+  top:0;
+  height:100%;
+  width:100%;
+  position:absolute;
+}
+
+
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color */
+.icon-bar a:hover {
+  background-color: #000;
+}
+
+.instagram {
+  background: #C13584;
+  color: white;
+}
+
+.twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.google {
+  background: #dd4b39;
+  color: white;
+}
+
+.linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.github{
+  background-color: #333;
+  color: white;
+}
+
+.marquee{
+  text-shadow: 3px 2px 1px #d8e3e7;
+}
+
+.images{
+  border: solid 4px #132c33;
+}
+
+@media only screen and(min-device-width: 320px)
+and (max-device-width: 480px) {
+
+}

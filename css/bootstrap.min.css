@@ -3154,13 +3154,13 @@ fieldset:disabled .btn {
   background-color: transparent;
 }
 .btn-outline-dark {
-  color: #212529;
-  border-color: #212529;
+  color: #132c33;
+  border-color: #132c33;
 }
 .btn-outline-dark:hover {
-  color: #fff;
-  background-color: #212529;
-  border-color: #212529;
+  color: #d8e3e7;
+  background-color: #132c33;
+  border-color: #132c33;
 }
 .btn-check:focus + .btn-outline-dark,
 .btn-outline-dark:focus {
