@@ -18,7 +18,6 @@
     />
   </head>
   <body>
-    
     <div class="container">
       <div class="row">
         <div class="col-md-10 mx-auto p-0">
@@ -48,13 +47,28 @@
                     <a class="nav-link" href="sehrim.html">Şehrim</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
                       Mirasımız
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="vakfıkebirEkmegi.html">Vakfıkebir Ekmeği</a></li>
-                      
-                      <li><a class="dropdown-item" href="trabzonspor.html">Trabzonspor</a></li>
+                      <li>
+                        <a class="dropdown-item" href="vakfıkebirEkmegi.html"
+                          >Vakfıkebir Ekmeği</a
+                        >
+                      </li>
+
+                      <li>
+                        <a class="dropdown-item" href="trabzonspor.html"
+                          >Trabzonspor</a
+                        >
+                      </li>
                     </ul>
                   </li>
                   <li class="nav-item">
@@ -80,60 +94,194 @@
     <div class="container">
       <div class="row">
         <div class="col-md-10 mx-auto content py-3 px-3">
-          <h5 class="display-5">Görkem Karagöl kimdir?</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod doloribus voluptates porro incidunt, ducimus, eligendi, dicta ipsum quia esse harum vero. Minima animi culpa voluptatum suscipit impedit praesentium, quisquam distinctio!</p>
-            <hr>
-            <h5 class="display-5">Görkem Karagöl kimdir?</h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod doloribus voluptates porro incidunt, ducimus, eligendi, dicta ipsum quia esse harum vero. Minima animi culpa voluptatum suscipit impedit praesentium, quisquam distinctio!</p>
-              <hr>
-              <h5 class="display-5">Görkem Karagöl kimdir?</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod doloribus voluptates porro incidunt, ducimus, eligendi, dicta ipsum quia esse harum vero. Minima animi culpa voluptatum suscipit impedit praesentium, quisquam distinctio!</p>
-                <hr>
           
-          </div>
+          <h3 class="display-3 text-center py-4 px-4 baslikH3">BENİMLE İLETİŞİM KUR</h3>
+          <hr />
+          
+          <!-- form elemanları başlangıcı -->
+          <form class="row g-3 needs-validation" novalidate>
+            <div class="col-md-4">
+              <label for="validationCustom01" class="form-label">Adınız</label>
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustom01"
+                required
+              />
+              <div class="valid-feedback">Güzel görünüyor</div>
+              <div class="invalid-feedback">Lütfen geçerli bir ad yazınız.</div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustom02" class="form-label"
+                >Soyadınız</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustom02"
+                required
+              />
+              <div class="valid-feedback">Güzel görünüyor</div>
+              <div class="invalid-feedback">
+                Lütfen geçerli bir soyadı yazınız.
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label for="validationCustom04" class="form-label">E-posta</label>
+              <input
+                type="email"
+                class="form-control"
+                id="validationCustom04"
+                required
+              />
+              <div class="valid-feedback">Güzel görünüyor</div>
+              <div class="invalid-feedback">
+                Lütfen geçerli bir e-posta yazınız.
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <label for="validationCustom03" class="form-label">Ülke</label>
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustom03"
+                required
+              />
+              <div class="valid-feedback">Güzel görünüyor</div>
+              <div class="invalid-feedback">
+                Lütfen geçerli bir ülke adı yazınız.
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <label for="validationCustom05" class="form-label">Şehir</label>
+              <input
+                type="text"
+                class="form-control"
+                id="validationCustom05"
+                required
+              />
+              <div class="valid-feedback">Güzel görünüyor</div>
+              <div class="invalid-feedback">
+                Lütfen geçerli bir şehir adı yazınız.
+              </div>
+            </div>
+            <div class="col-md-4">
+              <label class="my-1">Cinsiyet</label>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault"
+                  id="flexRadioDefault1"
+                  required
+                />
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Erkek
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="radio"
+                  name="flexRadioDefault"
+                  id="flexRadioDefault2"
+                  required
+                />
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Kız
+                </label>               
+              </div>
+            </div>
+
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label"
+                >Bana iletmek istediğiniz şeyleri yazınız</label
+              >
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                rows="3"
+              ></textarea>
+            </div>
+
+            <div class="col-12">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="invalidCheck"
+                  required
+                />
+                <label class="form-check-label" for="invalidCheck">
+                  Şartları ve koşulları kabul ediyorum.
+                </label>
+                <div class="invalid-feedback">
+                  Göndermeden önce kabul etmelisiniz.
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Gönder</button>
+            </div>
+          </form>
+          <!-- form elemanları bitişi -->
+        </div>
       </div>
     </div>
 
     <div class="container">
       <div class="row">
-        <div class="col-md-10 mx-auto footer d-flex justify-content-center align-items-center">
+        <div
+          class="
+            col-md-10
+            mx-auto
+            footer
+            d-flex
+            justify-content-center
+            align-items-center
+          "
+        >
           Görkem Karagöl &copy; 2021 Tüm Hakları Saklıdır.
         </div>
       </div>
     </div>
 
-        <!-- Sticky sosyal medya ikonları başlangıcı -->
-        <div class="icon-bar">
-          <a
-            title="Beni takip et"
-            href="https://www.instagram.com/gorkemkaragl/?hl=tr"
-            class="instagram"
-            ><i class="fa fa-instagram"></i
-          ></a>
-          <a title="Beni takip et" href="#" class="twitter"
-            ><i class="fa fa-twitter"></i
-          ></a>
-          <a
-            title="Bana e-mail yolla"
-            href="mailto:gorkemkaragol0@gmail.com"
-            class="google"
-            ><i class="fa fa-google"></i
-          ></a>
-          <a
-            title="Beni takip et"
-            href="https://www.linkedin.com/in/g%C3%B6rkemkarag%C3%B6l?originalSubdomain=tr"
-            class="linkedin"
-            ><i class="fa fa-linkedin"></i
-          ></a>
-          <a
-            title="Çalışmalarıma bak"
-            href="https://github.com/gorkemkaragl"
-            class="github"
-            ><i class="fa fa-github"></i
-          ></a>
-        </div>
-        <!-- stick sosyal medya ikonları bitişi -->
+    <!-- Sticky sosyal medya ikonları başlangıcı -->
+    <div class="icon-bar">
+      <a
+        title="Beni takip et"
+        href="https://www.instagram.com/gorkemkaragl/?hl=tr"
+        class="instagram"
+        ><i class="fa fa-instagram"></i
+      ></a>
+      <a title="Beni takip et" href="#" class="twitter"
+        ><i class="fa fa-twitter"></i
+      ></a>
+      <a
+        title="Bana e-mail yolla"
+        href="mailto:gorkemkaragol0@gmail.com"
+        class="google"
+        ><i class="fa fa-google"></i
+      ></a>
+      <a
+        title="Beni takip et"
+        href="https://www.linkedin.com/in/g%C3%B6rkemkarag%C3%B6l?originalSubdomain=tr"
+        class="linkedin"
+        ><i class="fa fa-linkedin"></i
+      ></a>
+      <a
+        title="Çalışmalarıma bak"
+        href="https://github.com/gorkemkaragl"
+        class="github"
+        ><i class="fa fa-github"></i
+      ></a>
+    </div>
+    <!-- stick sosyal medya ikonları bitişi -->
 
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/doğrulama.js"></script>
   </body>
 </html>

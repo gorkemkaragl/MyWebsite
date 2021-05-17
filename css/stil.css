@@ -27,6 +27,11 @@ body {
 .content{
   background-color: #51c4d3;
 }
+
+.baslikH3{
+  text-shadow: 3px 2px 1px #d8e3e7;
+}
+
 .footer{
   color: #d8e3e7;
   height: 50px;
@@ -49,6 +54,15 @@ body {
   position:absolute;
 }
 
+.tableStyle{
+  cursor:default;
+  border-color: #132c33;
+}
+
+.cvBorder{
+  border-right: dashed 3px ;
+
+}
 
 .icon-bar {
   position: fixed;
@@ -68,9 +82,9 @@ body {
   font-size: 20px;
 }
 
-/* Style the social media icons with color */
+/* sol taraftaki Sosyal medya ikonları */
 .icon-bar a:hover {
-  background-color: #000;
+  background-color: #132c33;
 }
 
 .instagram {
@@ -106,7 +120,10 @@ body {
   border: solid 4px #132c33;
 }
 
-@media only screen and(min-device-width: 320px)
-and (max-device-width: 480px) {
+@media only screen and (max-width: 600px) {
+  div.icon-bar {
+       display: none;
+     }
 
-}
+    
+  }
