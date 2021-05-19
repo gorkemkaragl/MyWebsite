@@ -99,10 +99,11 @@
           <hr />
           
           <!-- form elemanları başlangıcı -->
-          <form class="row g-3 needs-validation" novalidate>
+          <form class="row g-3 needs-validation px-4 py-4" action="iletisim.php" method="POST" novalidate>
             <div class="col-md-4">
               <label for="validationCustom01" class="form-label">Adınız</label>
               <input
+                name="ad"
                 type="text"
                 class="form-control"
                 id="validationCustom01"
@@ -116,6 +117,7 @@
                 >Soyadınız</label
               >
               <input
+                name="soyad"
                 type="text"
                 class="form-control"
                 id="validationCustom02"
@@ -129,6 +131,7 @@
             <div class="col-md-4">
               <label for="validationCustom04" class="form-label">E-posta</label>
               <input
+                name="eposta"
                 type="email"
                 class="form-control"
                 id="validationCustom04"
@@ -143,6 +146,7 @@
             <div class="col-md-6">
               <label for="validationCustom03" class="form-label">Ülke</label>
               <input
+                name="ulke"
                 type="text"
                 class="form-control"
                 id="validationCustom03"
@@ -157,6 +161,7 @@
             <div class="col-md-6">
               <label for="validationCustom05" class="form-label">Şehir</label>
               <input
+                name="sehir"
                 type="text"
                 class="form-control"
                 id="validationCustom05"
@@ -167,14 +172,16 @@
                 Lütfen geçerli bir şehir adı yazınız.
               </div>
             </div>
-            <div class="col-md-4">
+            
+             <div class="col-md-4">
               <label class="my-1">Cinsiyet</label>
               <div class="form-check">
                 <input
                   class="form-check-input"
                   type="radio"
-                  name="flexRadioDefault"
+                  name="cinsiyet"
                   id="flexRadioDefault1"
+                  value="erkek"
                   required
                 />
                 <label class="form-check-label" for="flexRadioDefault1">
@@ -185,21 +192,24 @@
                 <input
                   class="form-check-input"
                   type="radio"
-                  name="flexRadioDefault"
+                  name="cinsiyet"
                   id="flexRadioDefault2"
+                  value="kadın"
                   required
                 />
                 <label class="form-check-label" for="flexRadioDefault2">
-                  Kız
+                  Kadın
                 </label>               
               </div>
-            </div>
+            </div> 
+            
 
             <div class="mb-3">
               <label for="exampleFormControlTextarea1" class="form-label"
                 >Bana iletmek istediğiniz şeyleri yazınız</label
               >
               <textarea
+                name="mesaj"
                 class="form-control"
                 id="exampleFormControlTextarea1"
                 rows="3"
@@ -223,9 +233,15 @@
                 </div>
               </div>
             </div>
-            <div class="col-12">
-              <button class="btn btn-primary" type="submit">Gönder</button>
+            
+            <div class="col-6">
+              <button class="btn btn-outline-dark" type="submit">Gönder</button>
             </div>
+
+            <div class="col-6 ">
+              <button class=" btn btn-outline-dark pull-right" type="reset">Temizle</button>
+            </div>
+                                    
           </form>
           <!-- form elemanları bitişi -->
         </div>
