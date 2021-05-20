@@ -120,6 +120,7 @@ body {
   border: solid 4px #132c33;
 }
 
+
 @media only screen and (max-width: 600px) {
   div.icon-bar {
        display: none;
