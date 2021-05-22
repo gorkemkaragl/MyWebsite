@@ -42,7 +42,7 @@
 
                 <div class="mb-4 ">
                   <label for="password" class="form-label">Şifre</label>
-                  <input name="password" type="password" class="form-control" placeholder="1234567" id="password">
+                  <input name="password" type="password" class="form-control" placeholder="Şifrenizi giriniz" id="password">
                 </div>
                 
                 <div class="mb-4">
@@ -70,7 +70,7 @@
 
 
                   #giriş yapabilmek için alttaki bilgileri kullanınız.
-                  if($email=="kullanıcı@gmail.com" and $password=="12345"){
+                  if($email=="g201210066@sakarya.edu.tr" and $password=="g201210066"){
 
                     $_SESSION["oturum"]=true;
                     $_SESSION["kullanici"]=$email;
