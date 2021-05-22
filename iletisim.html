@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/stil.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    
+    <!-- yazı tipi -->
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap"
       rel="stylesheet"
@@ -18,12 +20,15 @@
     />
   </head>
   <body>
+    <!-- Navbarın bulunduğu container -->
     <div class="container">
       <div class="row">
         <div class="col-md-10 mx-auto p-0">
           <nav class="navbar navbar-expand-lg navbar">
             <div class="container-fluid">
-              <a class="navbar-brand text-white" href="anasayfa.html">Görkem Karagöl</a>
+              <a class="navbar-brand text-white" href="anasayfa.html"
+                >Görkem Karagöl</a
+              >
               <button
                 class="navbar-toggler"
                 type="button"
@@ -91,18 +96,26 @@
       </div>
     </div>
 
+    <!-- İçeriklerin bulunduğu container -->
     <div class="container">
       <div class="row">
         <div class="col-md-10 mx-auto content py-3 px-3">
-          
-          <h3 class="display-3 text-center py-4 px-4 baslikH3">BENİMLE İLETİŞİM KUR</h3>
+          <h3 class="display-3 text-center py-4 px-4 baslikH3">
+            BENİMLE İLETİŞİM KUR
+          </h3>
           <hr />
-          
+
           <!-- form elemanları başlangıcı -->
-          <form class="row g-3 needs-validation px-4 py-4" action="iletisim.php" method="POST" novalidate>
+          <form
+            class="row g-3 needs-validation px-4 py-4"
+            action="iletisim.php"
+            method="POST"
+            novalidate
+          >
             <div class="col-md-4">
               <label for="validationCustom01" class="form-label">Adınız</label>
               <input
+                placeholder="Ad"
                 name="ad"
                 type="text"
                 class="form-control"
@@ -117,6 +130,7 @@
                 >Soyadınız</label
               >
               <input
+                placeholder="Soyad"
                 name="soyad"
                 type="text"
                 class="form-control"
@@ -131,6 +145,7 @@
             <div class="col-md-4">
               <label for="validationCustom04" class="form-label">E-posta</label>
               <input
+                placeholder="E-posta"
                 name="eposta"
                 type="email"
                 class="form-control"
@@ -146,6 +161,7 @@
             <div class="col-md-6">
               <label for="validationCustom03" class="form-label">Ülke</label>
               <input
+                placeholder="Ülke"
                 name="ulke"
                 type="text"
                 class="form-control"
@@ -161,6 +177,7 @@
             <div class="col-md-6">
               <label for="validationCustom05" class="form-label">Şehir</label>
               <input
+                placeholder="Şehir"
                 name="sehir"
                 type="text"
                 class="form-control"
@@ -172,8 +189,8 @@
                 Lütfen geçerli bir şehir adı yazınız.
               </div>
             </div>
-            
-             <div class="col-md-4">
+
+            <div class="col-md-4">
               <label class="my-1">Cinsiyet</label>
               <div class="form-check">
                 <input
@@ -199,10 +216,9 @@
                 />
                 <label class="form-check-label" for="flexRadioDefault2">
                   Kadın
-                </label>               
+                </label>
               </div>
-            </div> 
-            
+            </div>
 
             <div class="mb-3">
               <label for="exampleFormControlTextarea1" class="form-label"
@@ -233,21 +249,23 @@
                 </div>
               </div>
             </div>
-            
+
             <div class="col-6">
               <button class="btn btn-outline-dark" type="submit">Gönder</button>
             </div>
 
-            <div class="col-6 ">
-              <button class=" btn btn-outline-dark pull-right" type="reset">Temizle</button>
+            <div class="col-6">
+              <button class="btn btn-outline-dark pull-right" type="reset">
+                Temizle
+              </button>
             </div>
-                                    
           </form>
           <!-- form elemanları bitişi -->
         </div>
       </div>
     </div>
 
+    <!-- footerın bulunduğu container -->
     <div class="container">
       <div class="row">
         <div

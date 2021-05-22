@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>İlgi Alanlarım - Görkem Karagöl</title>
     <link rel="stylesheet" href="css/stil.css" />
+    <link rel="stylesheet" href="css/havaDurumuAPI.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!-- yazı tipi -->
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap"
       rel="stylesheet"
@@ -18,13 +20,15 @@
     />
   </head>
   <body>
-    
+    <!-- Navbarın bulunduğu container -->
     <div class="container">
       <div class="row">
         <div class="col-md-10 mx-auto p-0">
           <nav class="navbar navbar-expand-lg navbar">
             <div class="container-fluid">
-              <a class="navbar-brand text-white" href="anasayfa.html">Görkem Karagöl</a>
+              <a class="navbar-brand text-white" href="anasayfa.html"
+                >Görkem Karagöl</a
+              >
               <button
                 class="navbar-toggler"
                 type="button"
@@ -48,13 +52,28 @@
                     <a class="nav-link" href="sehrim.html">Şehrim</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a
+                      class="nav-link dropdown-toggle"
+                      href="#"
+                      id="navbarDropdown"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
                       Mirasımız
                     </a>
                     <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="vakfıkebirEkmegi.html">Vakfıkebir Ekmeği</a></li>
-                      
-                      <li><a class="dropdown-item" href="trabzonspor.html">Trabzonspor</a></li>
+                      <li>
+                        <a class="dropdown-item" href="vakfıkebirEkmegi.html"
+                          >Vakfıkebir Ekmeği</a
+                        >
+                      </li>
+
+                      <li>
+                        <a class="dropdown-item" href="trabzonspor.html"
+                          >Trabzonspor</a
+                        >
+                      </li>
                     </ul>
                   </li>
                   <li class="nav-item">
@@ -77,58 +96,85 @@
       </div>
     </div>
 
+    <!-- İçeriklerin bulunduğu container -->
     <div class="container">
       <div class="row">
-        <div class="col-md-10 mx-auto content py-3 px-3">
-          
-
-
-            
-          
+        <div class="col-md-10 mx-auto content">
+          <div class="row">
+            <div class="col-md-8 ">
+              <h2 class="text-center mx-4 my-4">BURADAKİ UYGULAMADAN İSTEDİĞİNİZ ŞEHRİN HAVA DURUMUNU ARATABİLİRSİNİZ. </h2>
+            </div>
+          <div class="col-md-4 ">
+            <div class="app">
+              <div class="header">
+                <h1>Hava Durumu</h1>
+                <input type="text" id="aramaKutusu" placeholder="Şehir Adı" />
+              </div>
+              <div class="content1">
+                <div class="sehir">Trabzon , TR</div>
+                <div class="minmax">14°c - 19°c</div>
+                <div class="derece">15°c</div>
+                <div class="aciklama">Güneşli</div>
+                
+              </div>
+            </div>
           </div>
+          </div>
+        </div>
       </div>
     </div>
 
+    <!-- footerın bulunduğu container -->
     <div class="container">
       <div class="row">
-        <div class="col-md-10 mx-auto footer d-flex justify-content-center align-items-center">
+        <div
+          class="
+            col-md-10
+            mx-auto
+            footer
+            d-flex
+            justify-content-center
+            align-items-center
+          "
+        >
           Görkem Karagöl &copy; 2021 Tüm Hakları Saklıdır.
         </div>
       </div>
     </div>
 
-        <!-- Sticky sosyal medya ikonları başlangıcı -->
-        <div class="icon-bar">
-          <a
-            title="Beni takip et"
-            href="https://www.instagram.com/gorkemkaragl/?hl=tr"
-            class="instagram"
-            ><i class="fa fa-instagram"></i
-          ></a>
-          <a title="Beni takip et" href="#" class="twitter"
-            ><i class="fa fa-twitter"></i
-          ></a>
-          <a
-            title="Bana e-mail yolla"
-            href="mailto:gorkemkaragol0@gmail.com"
-            class="google"
-            ><i class="fa fa-google"></i
-          ></a>
-          <a
-            title="Beni takip et"
-            href="https://www.linkedin.com/in/g%C3%B6rkemkarag%C3%B6l?originalSubdomain=tr"
-            class="linkedin"
-            ><i class="fa fa-linkedin"></i
-          ></a>
-          <a
-            title="Çalışmalarıma bak"
-            href="https://github.com/gorkemkaragl"
-            class="github"
-            ><i class="fa fa-github"></i
-          ></a>
-        </div>
-        <!-- stick sosyal medya ikonları bitişi -->
+    <!-- Sticky sosyal medya ikonları başlangıcı -->
+    <div class="icon-bar">
+      <a
+        title="Beni takip et"
+        href="https://www.instagram.com/gorkemkaragl/?hl=tr"
+        class="instagram"
+        ><i class="fa fa-instagram"></i
+      ></a>
+      <a title="Beni takip et" href="#" class="twitter"
+        ><i class="fa fa-twitter"></i
+      ></a>
+      <a
+        title="Bana e-mail yolla"
+        href="mailto:gorkemkaragol0@gmail.com"
+        class="google"
+        ><i class="fa fa-google"></i
+      ></a>
+      <a
+        title="Beni takip et"
+        href="https://www.linkedin.com/in/g%C3%B6rkemkarag%C3%B6l?originalSubdomain=tr"
+        class="linkedin"
+        ><i class="fa fa-linkedin"></i
+      ></a>
+      <a
+        title="Çalışmalarıma bak"
+        href="https://github.com/gorkemkaragl"
+        class="github"
+        ><i class="fa fa-github"></i
+      ></a>
+    </div>
+    <!-- stick sosyal medya ikonları bitişi -->
 
+    <script src="js/havaDurumuAPI.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
 </html>

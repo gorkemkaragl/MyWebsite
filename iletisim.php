@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="css/stil.css" />
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    
+    <!-- yazı tipi -->
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap"
       rel="stylesheet"
@@ -18,6 +20,7 @@
     />
   </head>
   <body>
+    <!-- Navbarın bulunduğu container -->
     <div class="container">
       <div class="row">
         <div class="col-md-10 mx-auto p-0">
@@ -91,6 +94,7 @@
       </div>
     </div>
 
+    <!-- İçeriklerin bulunduğu container -->
     <div class="container">
       <div class="row">
         <div class="col-md-10 mx-auto content py-3 px-3 ">
@@ -178,6 +182,7 @@
       </div>
     </div>
 
+    <!-- footerın bulunduğu container -->
     <div class="container">
       <div class="row">
         <div

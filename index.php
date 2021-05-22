@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Giriş Yap - Görkem Karagöl</title>
     <link rel="stylesheet" href="css/stil.css" />
-    
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
+    
+    <!-- yazı tipi -->
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap"
       rel="stylesheet"
@@ -54,8 +55,12 @@
                 </div>
 
               </form>
-
-              <?php
+     
+            </div>
+          </div>
+          
+          <h4 class="text-center">
+            <?php
 
                 if($_POST){
 
@@ -69,9 +74,9 @@
 
                     $_SESSION["oturum"]=true;
                     $_SESSION["kullanici"]=$email;
-                    echo "";
+                    echo "Başarıyla giriş yaptınız<br>Yönlendiriliyorsunuz.";
 
-                    header("Refresh:2;url=anasayfa.html");
+                    header("Refresh:2; url=anasayfa.html");
                   }else{
                     echo "Kullanıcı adınız veya şifreniz yanlış";
                   }
@@ -79,8 +84,8 @@
                 }
               
               ?>
-            </div>
-          </div>
+            </h4>
+
         </div>
       </div>
     </div>
